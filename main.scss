@@ -195,7 +195,7 @@ body {
   margin-top: 16.5rem;
   flex: 0 0 44.1rem;
 
-  & h2 {
+  & h1 {
     font-size: 4rem;
     color: #3e2753;
     font-weight: 500;
@@ -223,7 +223,7 @@ input[type="radio"] {
   margin-right: 7.5px;
   cursor: pointer;
 
-  color: #e570ff;
+  color: hsl(289, 100%, 72%);
   width: 13px;
   height: 13px;
   border: 2px solid currentColor;
