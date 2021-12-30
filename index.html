@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="images/favicon-32x32.png"
+    />
+
+    <title>document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="mobile">
+          <div class="mobile__notch"></div>
+          <div class="mobile__screen">
+            <div class="header">
+              <svg
+                class="header__icon"
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="angle-left"
+                class="svg-inline--fa fa-angle-left"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 256 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M192 448c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L77.25 256l137.4 137.4c12.5 12.5 12.5 32.75 0 45.25C208.4 444.9 200.2 448 192 448z"
+                ></path>
+              </svg>
+
+              <img class="header__img" src="images/avatar.jpg" alt="Avatar" />
+              <div class="header__text-wrapper">
+                <p class="header__name">Samuel Green</p>
+                <p class="header__sub-heading">Available to Walk</p>
+              </div>
+              <svg
+                class="header__icon"
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="ellipsis-vertical"
+                class="svg-inline--fa fa-ellipsis-vertical"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 128 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M64 360C94.93 360 120 385.1 120 416C120 446.9 94.93 472 64 472C33.07 472 8 446.9 8 416C8 385.1 33.07 360 64 360zM64 200C94.93 200 120 225.1 120 256C120 286.9 94.93 312 64 312C33.07 312 8 286.9 8 256C8 225.1 33.07 200 64 200zM64 152C33.07 152 8 126.9 8 96C8 65.07 33.07 40 64 40C94.93 40 120 65.07 120 96C120 126.9 94.93 152 64 152z"
+                ></path>
+              </svg>
+            </div>
+            <div class="chat">
+              <p class="chat__message chat__message--recieved">
+                That sounds great. I’d be happy with that.
+              </p>
+              <p class="chat__message chat__message--recieved">
+                Could you send over some pictures of your dog, please?
+              </p>
+
+              <div class="chat__message-imgs new-block">
+                <img src="images/dog-image-1.jpg" alt="dog-1" />
+                <img src="images/dog-image-2.jpg" alt="dog-2" />
+                <img src="images/dog-image-3.jpg" alt="dog-3" />
+              </div>
+
+              <p class="chat__message chat__message--sent">
+                Here are a few pictures. She’s a happy girl!
+              </p>
+              <p class="chat__message chat__message--sent">Can you make it?</p>
+              <p class="chat__message chat__message--recieved new-block">
+                She looks so happy! The time we discussed works. How long shall
+                I take her out for?
+              </p>
+
+              <div class="chat__message--pricing">
+                <input class="radio" type="radio" />
+                <span class="chat__message--pricing__text">
+                  30 minute walk
+                </span>
+
+                <span class="chat__message--pricing__price">$29</span>
+              </div>
+              <div class="chat__message--pricing">
+                <!-- <svg class="icon icon-circle">
+                  <use xlink:href="#icon-circle"></use>
+                </svg> -->
+                <input class="radio" type="radio" />
+
+                <span class="chat__message--pricing__text"> 1 hour walk </span>
+
+                <span class="chat__message--pricing__price">$49</span>
+              </div>
+            </div>
+            <div class="typing">
+              <p class="typing__text">Type a message...</p>
+              <svg
+                class="typing__icon"
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="circle-chevron-right"
+                class="svg-inline--fa fa-circle-chevron-right"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M256 0C114.6 0 0 114.6 0 256c0 141.4 114.6 256 256 256s256-114.6 256-256C512 114.6 397.4 0 256 0zM358.6 278.6l-112 112c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25L290.8 256L201.4 166.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l112 112C364.9 239.6 368 247.8 368 256S364.9 272.4 358.6 278.6z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="text-wrapper">
+          <h2>Simple booking</h2>
+          <p>
+            Stay in touch with our dog walkers through the chat interface. This
+            makes it easy to discuss arrangements and make bookings. Once the
+            walk has been completed you can rate your walker and book again all
+            through the chat.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<!-- 
+Light Magenta: hsl(293, 100%, 63%)
+- Light Violet: hsl(264, 100%, 61%) -->
