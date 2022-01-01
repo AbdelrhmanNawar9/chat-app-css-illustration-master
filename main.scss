@@ -451,7 +451,7 @@ input[type="radio"] {
     opacity: 0;
     z-index: -1;
 
-    transform: rotate(-40deg) scale(1);
+    transform: rotate(-40deg);
     background: linear-gradient(
       to right,
       rgba(255, 255, 255, 0.13) 0%,
